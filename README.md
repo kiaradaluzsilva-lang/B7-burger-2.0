@@ -8,6 +8,12 @@ A nova versão mantém a identidade visual do projeto original, mas adiciona fun
 
 ### 🚀 Ver projeto online
 
+<p align="center">
+  <a href="https://kiaradaluzsilva-lang.github.io/B7-burger-2.0/" target="_blank">
+    <img src="https://img.shields.io/badge/VER%20PROJETO%20ONLINE-B58A28?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Ver projeto online">
+  </a>
+</p>
+
 👉 [Acessar B7 Burger](https://kiaradaluzsilva-lang.github.io/B7-burger-2.0/)
 
 ---
