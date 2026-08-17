@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>B7 Burger</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Roboto+Slab:wght@700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ==================================
+         HEADER DESKTOP
+    =================================== -->
+
+    <header class="header-desktop">
+        <div class="container header-content">
+
+            <a href="#inicio" class="logo">
+                B7 <span></span> Burger
+            </a>
+
+            <nav class="desktop-nav">
+                <a href="#inicio">Início</a>
+                <a href="#burgers">Burgers</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#contato">Contato</a>
+            </nav>
+
+            <a href="#" class="login-button">
+                Fazer Login
+            </a>
+
+        </div>
+    </header>
+
+
+    <!-- ==================================
+         HEADER MOBILE
+    =================================== -->
+
+    <header class="header-mobile">
+
+        <div class="mobile-container mobile-header-content">
+
+            <a href="#inicio" class="mobile-logo">
+                B7 <span></span> Burger
+            </a>
+
+            <button class="mobile-menu-button" id="mobile-menu-button" aria-label="Abrir menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <nav class="mobile-nav" id="mobile-nav">
+                <a href="#inicio">Início</a>
+                <a href="#burgers">Burgers</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#contato">Contato</a>
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <!-- ==================================
+             HERO DESKTOP
+        =================================== -->
+
+        <section class="hero-desktop" id="inicio">
+
+            <div class="container hero-desktop-grid">
+
+                <!-- TEXTO -->
+
+                <div class="hero-copy">
+
+                    <span class="hero-small-text">
+                        Perde tempo não!
+                    </span>
+
+                    <h1>
+                        O Hamburguer
+                        <br>
+                        mais delicioso
+                        <br>
+                        da Sua Cidade
+                    </h1>
+
+                    <p>
+                        Escolha seu hambúrguer favorito,
+                        faça seu pedido e aproveite uma
+                        experiência cheia de sabor.
+                    </p>
+
+                    <a href="#burgers" class="primary-button">
+                        Fazer pedido
+                    </a>
+
+                </div>
+
+
+                <!-- IMAGEM -->
+
+                <div class="hero-burger">
+
+                    <div class="burger-circle"></div>
+
+                    <img src="./src/images/hero-burger.png" alt="Hambúrguer B7">
+
+                    <div class="burger-shadow"></div>
+
+                </div>
+
+
+                <!-- ETAPAS -->
+
+                <div class="hero-steps">
+
+                    <article class="step">
+
+                        <div class="step-icon">
+                            <i class="fa-regular fa-user"></i>
+                        </div>
+
+                        <div class="step-text">
+                            <strong>Logou</strong>
+
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                    </article>
+
+
+                    <article class="step">
+
+                        <div class="step-icon">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+
+                        <div class="step-text">
+                            <strong>Pediu</strong>
+
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                    </article>
+
+
+                    <article class="step">
+
+                        <div class="step-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+
+                        <div class="step-text">
+                            <strong>Chegou</strong>
+
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================
+             INÍCIO MOBILE
+        =================================== -->
+
+        <section class="mobile-intro">
+
+            <div class="mobile-container">
+
+                <h1>
+                    Seja Bem-Vindo
+                </h1>
+
+                <p>
+                    O que deseja pra hoje?
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================
+             PESQUISA MOBILE
+        =================================== -->
+
+        <section class="mobile-search-section">
+
+            <div class="mobile-container">
+
+                <div class="search-box">
+
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                    <input type="text" id="mobile-search" placeholder="Digite o nome do Burger">
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================
+             PROMOÇÃO MOBILE
+        =================================== -->
+
+        <section class="mobile-promotion">
+
+            <div class="mobile-container">
+
+                <article class="promotion-card">
+
+                    <div class="promotion-info">
+
+                        <span>
+                            Promoção
+                        </span>
+
+                        <h2>
+                            Dose Dupla.
+                        </h2>
+
+                        <p>
+                            2 Old Burger por apenas:
+                        </p>
+
+                        <strong>
+                            R$ 35,50
+                        </strong>
+
+                    </div>
+
+
+                    <div class="promotion-orange"></div>
+
+
+                    <img src="./src/images/dose-dupla.png" alt="Dois hambúrgueres em promoção">
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================
+             BUSCA DESKTOP
+        =================================== -->
+
+        <section class="desktop-search-area" id="burgers">
+
+            <div class="container">
+
+                <h2>
+                    Pesquise o seu
+                    <br>
+                    Hamburguer favorito!
+                </h2>
+
+
+                <div class="desktop-search-row">
+
+                    <div class="search-box desktop-search">
+
+                        <div class="search-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+
+                        <input type="text" id="desktop-search" placeholder="Digite o nome do Burger">
+
+                    </div>
+
+
+                    <div class="select-wrapper">
+
+                        <select id="category-select">
+
+                            <option value="todos">
+                                Todos os Hambúrgueres
+                            </option>
+
+                            <option value="tradicional">
+                                Tradicionais
+                            </option>
+
+                            <option value="especial">
+                                Especiais
+                            </option>
+
+                            <option value="combo">
+                                Combos
+                            </option>
+
+                        </select>
+
+                        <i class="fa-solid fa-chevron-down"></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================
+             CARDÁPIO
+        =================================== -->
+
+        <section class="products-section">
+
+            <div class="container products-container">
+
+                <div class="products-grid" id="products-grid">
+                </div>
+
+
+                <div class="empty-state" id="empty-state">
+
+                    <i class="fa-solid fa-burger"></i>
+
+                    <h3>
+                        Nenhum burger encontrado
+                    </h3>
+
+                    <p>
+                        Tente pesquisar outro nome.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================
+             SERVIÇOS
+        =================================== -->
+
+        <section class="services" id="servicos">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span>
+                        É simples
+                    </span>
+
+                    <h2>
+                        Seu pedido em poucos passos
+                    </h2>
+
+                </div>
+
+
+                <div class="services-grid">
+
+                    <article>
+
+                        <i class="fa-solid fa-burger"></i>
+
+                        <h3>
+                            Escolha
+                        </h3>
+
+                        <p>
+                            Encontre seu burger favorito
+                            em nosso cardápio.
+                        </p>
+
+                    </article>
+
+
+                    <article>
+
+                        <i class="fa-brands fa-whatsapp"></i>
+
+                        <h3>
+                            Peça
+                        </h3>
+
+                        <p>
+                            Envie seu pedido diretamente
+                            pelo WhatsApp.
+                        </p>
+
+                    </article>
+
+
+                    <article>
+
+                        <i class="fa-solid fa-house"></i>
+
+                        <h3>
+                            Aproveite
+                        </h3>
+
+                        <p>
+                            Receba seu pedido e aproveite
+                            cada mordida.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================
+             CTA
+        =================================== -->
+
+        <section class="cta" id="contato">
+
+            <div class="container cta-content">
+
+                <div>
+
+                    <span>
+                        Bateu a fome?
+                    </span>
+
+                    <h2>
+                        Seu B7 favorito está esperando.
+                    </h2>
+
+                </div>
+
+                <a href="https://wa.me/5561999999999" target="_blank" class="whatsapp-button">
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                    Fazer pedido
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==================================
+         FOOTER
+    =================================== -->
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <a href="#inicio" class="footer-logo">
+                B7 <span></span> Burger
+            </a>
+
+            <p>
+                © 2026 B7 Burger
+            </p>
+
+            <div class="footer-social">
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ==================================
+         MODAL PRODUTO
+    =================================== -->
+
+    <div class="modal-overlay" id="modal-overlay">
+
+        <div class="product-modal">
+
+            <button class="modal-close" id="modal-close">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+
+            <div class="modal-image">
+
+                <img src="" alt="" id="modal-image">
+
+            </div>
+
+
+            <div class="modal-content">
+
+                <span id="modal-category"></span>
+
+                <h2 id="modal-title"></h2>
+
+                <p id="modal-description"></p>
+
+                <strong id="modal-price"></strong>
+
+                <button class="modal-whatsapp" id="modal-whatsapp">
+
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                    Pedir pelo WhatsApp
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
