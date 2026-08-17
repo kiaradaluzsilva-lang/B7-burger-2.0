@@ -6,6 +6,10 @@ O projeto nasceu originalmente como um trabalho acadêmico focado na construçã
 
 A nova versão mantém a identidade visual do projeto original, mas adiciona funcionalidades comuns em cardápios digitais reais.
 
+### 🚀 Ver projeto online
+
+👉 [Acessar B7 Burger](https://kiaradaluzsilva-lang.github.io/B7-burger-2.0/)
+
 ---
 
 ## 📱 Sobre o projeto
