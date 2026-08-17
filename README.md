@@ -14,8 +14,6 @@ A nova versão mantém a identidade visual do projeto original, mas adiciona fun
   </a>
 </p>
 
-👉 [Acessar B7 Burger](https://kiaradaluzsilva-lang.github.io/B7-burger-2.0/)
-
 ---
 
 ## 📱 Sobre o projeto
