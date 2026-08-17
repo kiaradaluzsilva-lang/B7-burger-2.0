@@ -6,7 +6,7 @@ O projeto nasceu originalmente como um trabalho acadêmico focado na construçã
 
 A nova versão mantém a identidade visual do projeto original, mas adiciona funcionalidades comuns em cardápios digitais reais.
 
-<p align="center">
+<p>
   <a href="https://kiaradaluzsilva-lang.github.io/B7-burger-2.0/" target="_blank">
     <img src="https://img.shields.io/badge/VER%20PROJETO%20ONLINE-B58A28?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Ver projeto online">
   </a>
